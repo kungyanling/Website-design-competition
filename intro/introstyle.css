@@ -1,0 +1,43 @@
+body{
+  background-color:#f4f6eb 
+}
+#gotop{
+  position:fixed;
+  bottom:0;
+  right:0;
+  z-index:2;
+  font-size:50pt;
+  a:link{color:#f4f6eb}
+  a:visited{color:#f4f6eb}
+}
+@media (max-width: 750px){
+  #header{
+    width: 100%;
+  }
+  #footer{
+    width: 100%;
+  }
+}
+#intro{
+  padding:20px;
+  margin:30px;
+  background-color:#fce5ce;
+}
+#topic{
+	font-size:25pt;
+	font-weight:bold;
+	color:#992a1e;
+}
+.accordion-button{
+	font-size:22pt;
+	font-weight:bold;
+}
+.accordion-collapse{
+	background-color:#fdf5e1;
+	font-size:20pt;
+	color:#1d2569;
+}
+.remaind{
+	font-size:19pt;
+	font-weight:bold;
+}
