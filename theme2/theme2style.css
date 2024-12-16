@@ -1,0 +1,47 @@
+body{
+  background-color:#f4f6eb 
+}
+#gotop{
+  position:fixed;
+  bottom:0;
+  right:0;
+  z-index:2;
+  font-size:50pt;
+  a:link{color:#f4f6eb}
+  a:visited{color:#f4f6eb}
+}
+@media (max-width: 750px){
+  #header{
+    width: 100%;
+  }
+  #footer{
+    width: 100%;
+  }
+}
+#theme{
+	padding:20px;
+	background-color:#fce5ce;
+}
+#topic{
+	font-size:25pt;
+	font-weight:bold;
+	color:#992a1e;
+}
+.card-body{
+	background-color:#fdf5e1;
+}
+.card-title{
+	font-weight:bold;
+}
+.card-text{
+	font-size:13pt;
+	line-height:3;
+	font-weight:bold;
+}
+.sample{
+	line-height:2;
+	color:gray;
+	font-weight:bold;
+	text-align:center;
+	font-size:14pt;
+}
