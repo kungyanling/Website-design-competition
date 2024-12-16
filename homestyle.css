@@ -1,0 +1,29 @@
+body{
+  background-color:#f4f6eb 
+}
+@media (max-width: 750px){
+  #header{
+    width: 100%;
+  }
+  #footer{
+    width: 100%;
+  }
+  #homepicture{
+    width: 100%;
+  }
+}
+#gotop{
+  position:fixed;
+  bottom:0;
+  right:0;
+  z-index:2;
+  font-size:50pt;
+  a:link{color:#f4f6eb}
+  a:visited{color:#f4f6eb}
+}
+#theme{
+	text-align:center;
+	padding:20px;
+	margin:30px;
+	background-color:#fce5ce;
+}
